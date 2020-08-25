@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Radley', serif;
+    font-size: 100px;
+    position: relative;
+    padding: 50px;
+    margin: -13px 265px 0px;
+    font-weight: normal;
+    letter-spacing: 31px;
+}
+h2{
+    font-family: 'Radley', serif;
+    text-align: center;
+    padding: 2%;
+    font-weight: normal;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+li a {
+    font-family: 'Radley', serif;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+header{
+    display: flex;
+    padding: 26px 39%;
+}
+li{
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+li a{
+    transition: all 0.3s ease 0s;
+}
+li a:hover{
+    color: red;
+}
+img{
+    
+    height: 300px;
+    display: block;
+    margin-left: 99px;
+    margin: auto
+}
+span{
+    color: red
+}
+.center_img{
+    transform: rotate(48deg);
+}
+.rose_img{
+height: 45px;
+}
