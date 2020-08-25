@@ -5,16 +5,16 @@
 }
 
 h1 {
-    font-family: 'Radley', serif;
+    font-family: 'Cinzel', serif;
     font-size: 100px;
     position: relative;
-    padding: 50px;
+    padding: 50px 0 0 50px;
     margin: -13px 265px 0px;
     font-weight: normal;
     letter-spacing: 31px;
 }
 h2{
-    font-family: 'Radley', serif;
+    font-family: 'Cinzel', serif;
     text-align: center;
     padding: 2%;
     font-weight: normal;
@@ -22,7 +22,7 @@ h2{
     word-spacing: 5px;
 }
 li a {
-    font-family: 'Radley', serif;
+    font-family: 'Cinzel', serif;
     text-decoration: none;
     color: rgb(178,11,35, 100%);
     font-size: 25px;
@@ -33,7 +33,7 @@ header{
 }
 li{
     display: inline-block;
-    padding: 0px 20px;
+    padding: 0px 10px;
 
 }
 li a{
@@ -52,14 +52,77 @@ img{
 span{
     color: rgb(178,11,35, 100%)
 }
-.center_img{
+img .center_img{
+    height: 300px;
+    display: block;
+    margin-left: 99px;
+    margin: auto
+}
+.center_img_with_rose{
     transform: rotate(48deg);
 }
-.rose_img{
-height: 45px;
-}
+
 .link_images{
     height: 57px;
     padding: -1px;
     margin: -21px auto;
+}
+@media (max-width: 900px) and (min-width: 700px) {
+
+    h1 {
+        font-family: 'Cinzel', serif;
+        font-size: 100px;
+        position: relative;
+        padding: 50px;
+        margin: -13px 265px 0px;
+        font-weight: normal;
+        letter-spacing: 31px;
+    }
+    h2{
+        font-family: 'Cinzel', serif;
+        text-align: center;
+        padding: 2%;
+        font-weight: normal;
+        letter-spacing: 2px;
+        word-spacing: 5px;
+    }
+    li a {
+        font-family: 'Cinzel', serif;
+        text-decoration: none;
+        color: rgb(178,11,35, 100%);
+        font-size: 25px;
+    }
+    header{
+        display: flex;
+        padding: 26px 39%;
+    }
+    li{
+        display: inline-block;
+        padding: 0px 10px;
+    
+    }
+    li a{
+        transition: all 0.3s ease 0s;
+    }
+    li a:hover{
+        color: black
+    }
+    img{
+        
+        
+    }
+    span{
+        color: rgb(178,11,35, 100%)
+    }
+    /* .center_img{
+        
+    } */
+    .center_img_with_rose{
+        transform: rotate(48deg);
+    }
+    .link_images{
+        height: 57px;
+        padding: -1px;
+        margin: -21px auto;
+    }
 }
