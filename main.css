@@ -40,7 +40,7 @@ li a{
     transition: all 0.3s ease 0s;
 }
 li a:hover{
-    color: red;
+    color: rgb(178,11,35, 100%);
 }
 img{
     
@@ -50,7 +50,7 @@ img{
     margin: auto
 }
 span{
-    color: red
+    color: rgb(178,11,35, 100%)
 }
 .center_img{
     transform: rotate(48deg);
