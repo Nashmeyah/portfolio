@@ -24,7 +24,7 @@ h2{
 li a {
     font-family: 'Radley', serif;
     text-decoration: none;
-    color: black;
+    color: rgb(178,11,35, 100%);
     font-size: 25px;
 }
 header{
@@ -40,7 +40,7 @@ li a{
     transition: all 0.3s ease 0s;
 }
 li a:hover{
-    color: rgb(178,11,35, 100%);
+    color: black
 }
 img{
     
@@ -57,4 +57,9 @@ span{
 }
 .rose_img{
 height: 45px;
+}
+.link_images{
+    height: 57px;
+    padding: -1px;
+    margin: -21px auto;
 }
