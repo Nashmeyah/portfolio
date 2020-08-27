@@ -3,6 +3,17 @@
     margin: 0;
     padding: 0;
 }
+/* html{
+    background-image: url("https://www.fg-a.com/wallpapers/white-marble-3-2018.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+/* body{
+    height: 100%;
+    width: 70%;
+    background-color: white;
+} */
 
 h1 {
     font-family: 'Cinzel', serif;
