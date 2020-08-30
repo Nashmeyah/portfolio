@@ -28,7 +28,7 @@ h2{
     font-family: 'Lato', sans-serif;
 
     text-align: center;
-    padding: 2%;
+    padding: 3%;
     font-size: 25px;
     font-weight: normal;
     letter-spacing: 2px;
@@ -81,9 +81,15 @@ img .center_img{
     padding: -1px;
     margin: -21px auto;
 }
-.about, .projects{
-    padding: 3%;
-    margin: 5%;
+ 
+.about{
+    padding: 0% 10% 0% 10%;
+    margin-top: 1.5%;
+}
+
+.projects{
+    padding: 0% 10% 0% 10%;
+    margin-top: 1.5%; 
 }
 .aboutTitle, .projectsTitle{
     font-family: 'Cinzel', serif;
@@ -96,9 +102,9 @@ img .center_img{
 /* .aboutText p{
     float: left;
 } */
-/* .portfolioImage{
-    float: right;
-} */
+.portfolioImage{
+    margin: 5%;
+}
 p{
     font-family: 'Lato', sans-serif;
 }
