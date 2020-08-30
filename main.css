@@ -87,16 +87,22 @@ img .center_img{
 }
 .aboutTitle, .projectsTitle{
     font-family: 'Cinzel', serif;
-    float: left;
+   
 }
 .aboutSection, .projectsSection{
     margin: 3%;
     padding: 3%;
 }
+.aboutText p{
+    float: left;
+}
+.portfolioImage{
+    float: right;
+}
 p{
     font-family: 'Lato', sans-serif;
 }
-.card{
-    float:left; 
+.card-body{
+    display: inline-blc; 
     margin: 3%;
 }
