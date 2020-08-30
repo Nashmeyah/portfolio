@@ -45,6 +45,7 @@ header{
     display: flex;
     padding: 26px 39%;
 }
+
 li{
     display: inline-block;
     padding: 0px 10px;
@@ -60,7 +61,6 @@ img{
     
     height: 300px;
     display: block;
-    margin-left: 99px;
     margin: auto
 }
 span{
@@ -93,16 +93,15 @@ img .center_img{
     margin: 3%;
     padding: 3%;
 }
-.aboutText p{
+/* .aboutText p{
     float: left;
-}
-.portfolioImage{
+} */
+/* .portfolioImage{
     float: right;
-}
+} */
 p{
     font-family: 'Lato', sans-serif;
 }
 .card-body{
-    display: inline-blc; 
     margin: 3%;
 }
