@@ -1,3 +1,11 @@
-@media (max-width: 1000px){
-   
+@media all and (max-width: 500px){
+    nav{
+        height: 10vh;
+    }
+   .nav_links {
+       flex-direction: column;
+   }
+   .nav_links li a  {
+    text-align: center;
+}
 }
