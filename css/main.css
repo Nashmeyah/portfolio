@@ -1,31 +1,19 @@
 @import url('responsive.css');
 *
 {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-/* html{
-    background-image: url("https://www.fg-a.com/wallpapers/white-marble-3-2018.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
-/* body{
-    height: 100%;
-    width: 70%;
-    background-color: white;
-} */
+
 h1 
 {
     font-family: 'Cinzel', serif;
     font-size: 7rem;
     position: relative;
-    padding: 50px 0 0 50px;
-    margin: -13px 265px 0px;
     font-weight: normal;
     letter-spacing: 31px;
-    text-align:center;
+    display: flex;
+    justify-content: center;
 }
 h2
 {
@@ -40,7 +28,7 @@ h2
 li a 
 {
     font-family: 'Lato', sans-serif;
-
+    justify-content: center;
     text-decoration: none;
     color: rgb(178,11,35, 100%);
     font-size: 25px;
@@ -53,7 +41,7 @@ header
 nav
 {
     text-align: center;
-    padding: 0% 8%;
+    padding: 0% 7%;
 }
 
 li
