@@ -8,13 +8,13 @@
 
 h1 
 {
+    display: flex;
     font-family: 'Cinzel', serif;
     font-size: 7rem;
-    position: relative;
     font-weight: normal;
     letter-spacing: 31px;
-    display: flex;
     justify-content: center;
+    padding-top: 5%;
 }
 h2
 {
@@ -26,17 +26,12 @@ h2
     letter-spacing: 2px;
     word-spacing: 5px;
 }
-    /* color: rgb(178,11,35, 100%); */
-
-/* header
-{
-   display: flex;
-} */
 
 nav
 {
     height: 10vh;
 }
+
 .nav_links
 {
     display: flex;

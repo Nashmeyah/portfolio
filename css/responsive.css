@@ -1,11 +1,21 @@
 @media all and (max-width: 500px){
-    nav{
-        height: 10vh;
+    nav
+    {
+        height: 10vh; 
     }
-   .nav_links {
+    h1
+    {
+        font-size: 20px;
+        background-color: orange;
+    }
+   .nav_links
+   {
+       display: flex;
        flex-direction: column;
+       height: 100%;
    }
-   .nav_links li a  {
+   .nav_links li a
+   {
     text-align: center;
-}
+   }
 }
