@@ -85,18 +85,25 @@
         </div>
         <div id="contact">
             <form name="contact" method="POST" data-netlify="true">
-                <p>
-                    <label>Your Name: <input type="text" name="name" id="name"/> </label>   
-                  </p>
-                  <p>
-                    <label>Your Email: <input type="email" name="email" /></label>
-                  </p>
-                  <p>
-                    <label>Message: <textarea name="message"></textarea></label>
-                  </p>
-                  <p>
-                    <button type="submit">Send</button>
-                  </p>
+               <div class="fields">
+                   <div class="field half">
+                       <label for="name">Name</label>
+                       
+                   </div>
+
+                   <div class="field half">
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email"/>
+                    </div>
+
+                    <div class="field">
+                        <label for="message">Message</label>
+                        <textarea name="name" id="name" rows="6"></textarea>
+                    </div>
+               </div> 
+               <ul class="actions">
+                   <li><input type="submit" value="Send Message" class="submit_btn"></li>
+               </ul>
             </form>
         </div>
     </body>
