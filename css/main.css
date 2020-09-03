@@ -106,9 +106,10 @@ span
 hr{
     margin: 0% 4%;
 }
-.aboutTitle, .projectsTitle
+.aboutTitle, .projectsTitle, .contactTitle
 {
     font-family: 'Cinzel', serif;
+    display: flex;
    
 }
 .aboutSection, .projectsSection
@@ -158,4 +159,103 @@ p
 }
 .view_code_btn:hover{
     color: red
+}
+
+section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+section:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    
+}
+
+section .contact_container{
+    position: relative;
+    min-width: 980px;
+    min-height: 550px;
+    display: flex;
+    z-index: 1000;
+}
+section .contact_container .contactInfo{
+    position: absolute;
+    top: 100px;
+    width: 384px;
+    height: (100% - 40px);
+    background-color: maroon;
+    z-index: 1;
+    padding: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 0px 0 10px rgba(0,0,0,0.5);
+}
+section .contact_container .contactInfo h2 {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 500;
+}
+section .contact_container .contactInfo img{
+    height: 28px;
+    width: 28px;
+}
+
+section .contact_container .contactInfo .info{
+    position: relative;
+    margin: 20px 0;
+}
+
+section .contact_container .contactInfo .info li{
+    position: relative;
+    list-style: none;
+    display: flex;
+    margin: 20px 0;
+    align-items: flex-start;
+    
+}
+section .contact_container .contactInfo .info li span:nth-child(1){
+    width: 30px;
+    min-width: 30px;
+}
+/* section .contact_container .contactInfo .info li span:nth-child(1) img{
+    max-width: 100%;
+    filter: invert(1);
+    opacity: 0.5;
+} */
+section .contact_container .contactInfo .info li span:nth-child(2){
+    color: #ffffff;
+    margin-left: 10px;
+    opacity: 0.9;
+    font-size: 20px;
+}
+
+section .contact_container .contactInfo .logo_links{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+section .contact_container .contactInfo .logo_links li{
+    list-style: none;
+    margin-right: 15px;  
+}
+
+section .contact_container .contactInfo .logo_links li a{
+    text-decoration: none;    
+}
+section .contact_container form {
+    position: absolute;
+    padding: 95px 60px;
+    background-color: rgb(178,11,35, 100%);
+    margin-left: 250px;
+    padding-left: 350px;
+    width: calc(100%-150px);
+    height: 100%;
 }
