@@ -84,27 +84,53 @@
             <h2><span class="aboutTitle">contact me</span></h2>   
             <br>
             <hr>
-            <form name="contact" method="POST" data-netlify="true">
-               <div class="fields">
-                   <div class="field half">
-                       <label for="name">Name</label>
-                       <input type="text" name="name" id="name"/>
-                   </div>
-
-                   <div class="field half">
-                        <label for="email">Email</label>
-                        <input type="text" name="email" id="email"/>
+            <div class="contact_container">
+                <div class="contactInfo">
+                    <div>
+                        <h2>Contact Info</h2>
+                        <ul>
+                            <li>
+                                <span><img src="./img/pin.png" alt="location"></span>
+                                <span>Salt Lake City, Utah</span>
+                            </li>
+                            <li>
+                                <span><img src="./img/email.png" alt="email"></span>
+                                <span>nashalrekabi@gmail.com</span>
+                            </li>
+                            <li>
+                                <span><img src="./img/telephone.png" alt="phone"></span>
+                                <span>(801)830-0253</span>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li><a href="#"></a><img src="./img/github-image.png"></li>
+                            <li><a href="#"></a><img src="./img/010-linkedin.png"></li>
+                        </ul>
                     </div>
-
-                    <div class="field">
-                        <label for="message">Message</label>
-                        <textarea name="name" id="name" rows="6"></textarea>
-                    </div>
-               </div> 
-               <ul class="actions">
-                   <li><input type="submit" value="Send Message" class="submit_btn"></li>
-               </ul>
-            </form>
+                </div>
+                <form name="contact" method="POST" data-netlify="true">
+                    <div class="fields">
+                        <div class="field half">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name" required/>
+                        </div>
+     
+                        <div class="field half">
+                             <label for="email">Email</label>
+                             <input type="text" name="email" id="email" required/>
+                         </div>
+     
+                         <div class="field">
+                             <label for="message">Message</label>
+                             <textarea name="name" id="name" rows="6" required></textarea>
+                         </div>
+                    </div> 
+                    <ul class="actions">
+                        <li><input type="submit" value="Send Message" class="submit_btn"></li>
+                    </ul>
+                 </form>
+            </div>
+            
         </div>
     </body>
 </html>
