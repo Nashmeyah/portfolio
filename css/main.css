@@ -90,14 +90,21 @@ span
  
 .about
 {
-    padding: 0% 10% 0% 10%;
-    margin-top: 1.5%;
+    margin-top: 3.5%;
+    /* display: flex; */
+    padding-right: 4%;
+    padding-left: 4%;
 }
 
 .projects
 {
-    padding: 0% 10% 0% 10%;
-    margin-top: 1.5%; 
+    margin-top: 3.5%;
+    /* display: flex; */
+    padding-right: 4%;
+    padding-left: 2.5%;
+}
+hr{
+    margin: 0% 4%;
 }
 .aboutTitle, .projectsTitle
 {
@@ -106,10 +113,18 @@ span
 }
 .aboutSection, .projectsSection
 {
-    margin: 3%;
-    padding: 3%;
+    margin: 0% 5%;
+    padding: 7%;
 }
-
+.aboutSection{
+    display: flex;
+}
+.aboutText{
+    display: flex;
+    padding: 5% 3%;
+    font-size: 18px;
+    align-items: center;
+}
 .p-Image
 {
     height: 300px;
