@@ -259,3 +259,52 @@ section .contact_container form {
     width: calc(100%-150px);
     height: 100%;
 }
+section .contact_container form h2{
+    font-size: 24px;
+    font-weight: 500;
+}
+section .contact_container form .fields{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+section .contact_container form .field {
+    position: relative;
+    margin: 0 0 35px 0;
+    
+}
+section .contact_container form .field.half{
+    width: 47%;
+}
+
+section .contact_container form .field.half{
+    width: 100%;
+}
+section .contact_container form .field input, 
+section .contact_container form .field textarea
+{
+    width: 100%;
+    padding: 5px 0;
+    resize: none;
+    font-size: 18px;
+    font-weight: 300;
+    color: #333;
+    border: none;
+    border-bottom: 1px solid #333;
+    outline: none;
+}
+section .contact_container form .actions li{
+    list-style: none;
+}
+section .contact_container form .actions li input[type="submit"]{
+    
+    position: relative;
+    cursor: pointer;
+    background-color: black;
+    color: #ffffff;
+    max-width: 150px;
+    padding: 12px;
+    border: none;
+}
