@@ -251,11 +251,11 @@ section .contact_container .contactInfo .logo_links li a{
 }
 section .contact_container form {
     position: absolute;
-    padding: 95px 60px;
+    padding: 70px 50px;
     background-color: rgb(178,11,35, 100%);
-    margin-left: 250px;
-    padding-left: 350px;
-    width: calc(100%-150px);
+    margin-left: 150px;
+    padding-left: 280px;
+  
     height: 100%;
 }
 section .contact_container form h2, 
