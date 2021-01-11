@@ -129,9 +129,10 @@ hr{
 .aboutText{
     display: flex;
     padding: 5% 3%;
-    font-size: 18px;
+    font-size: 20px;
     align-items: center;
 }
+
 .p-Image
 {
     height: 300px;
